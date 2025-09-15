@@ -25,13 +25,13 @@ const Navbar = () => {
             {/* MOBILE LINK LIST */}
             <div className={`w-full h-screen flex flex-col items-center justify-center gap-8 font-medium text-lg absolute top-16 transition-all ease-in-out 
                 ${open ? "-right-0" : "-right-[100%]"}`}>
-                <Link to="/" className="font-dancing text-2xl tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
+                <Link to="/" className="font-dancing text-2xl font-bold tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
                 bg-clip-text text-transparent">Home</Link>
-                <Link to="/" className="font-dancing text-2xl tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
+                <Link to="/" className="font-dancing text-2xl font-bold tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
                 bg-clip-text text-transparent">Trending</Link>
-                <Link to="/" className="font-dancing text-2xl tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
+                <Link to="/" className="font-dancing text-2xl font-bold tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
                 bg-clip-text text-transparent">Most Popular</Link>
-                <Link to="/" className="font-dancing text-2xl tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
+                <Link to="/" className="font-dancing text-2xl font-bold tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
                 bg-clip-text text-transparent">About</Link>
                 <Link to="">
                     <button className="py-2 px-4 rounded-3xl bg-blue-800 text-white">Login 👋</button>
@@ -40,13 +40,13 @@ const Navbar = () => {
         </div>
         {/* DESKTOP MENU */}
         <div className="hidden md:flex items-center gap-8 xl:gap-12 font-medium">
-            <Link to="/" className="font-dancing text-2xl tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
+            <Link to="/" className="font-dancing text-2xl font-bold tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
             bg-clip-text text-transparent">Home</Link>
-            <Link to="/" className="font-dancing text-2xl tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
+            <Link to="/" className="font-dancing text-2xl font-bold tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
             bg-clip-text text-transparent">Trending</Link>
-            <Link to="/" className="font-dancing text-2xl tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
+            <Link to="/" className="font-dancing text-2xl font-bold tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
             bg-clip-text text-transparent">Most Popular</Link>
-            <Link to="/" className="font-dancing text-2xl tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
+            <Link to="/" className="font-dancing text-2xl font-bold tracking-wider bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] 
             bg-clip-text text-transparent">About</Link>
 
             <SignedOut>
